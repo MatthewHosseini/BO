@@ -1,10 +1,10 @@
-The unifying idea with the notebooks above is to **build arbitrage-free term-structure objects, reduce them to a few state variables, model their dynamics, and translate them into pricing / hedging / trading signals.**
+The unifying idea with the notebooks in this repo is to **build arbitrage-free term-structure objects, reduce them to a few state variables, model their dynamics, and translate them into pricing / hedging / trading signals.**
 
 ---
 
 ## Project overview
 
-The spine (unifying idea) is **discounting regimes → crash-hedging demand → equity-vol skew**, with an IRRBB-motivated interpretation:
+The spine is **discounting regimes → crash-hedging demand → equity-vol skew**, with an IRRBB-motivated interpretation:
 
 - The **PCA–HJM** notebook builds an arbitrage-free discount curve. Its factors drive the discount factor
   $
